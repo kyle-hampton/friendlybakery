@@ -1,0 +1,25 @@
+<nav>
+  <li> <a href="/desert">cookies</a></li>
+  <li> <a href="/desert/muffins">mufflins</a></li>
+  <li> <a href="/desert/cakes">cakes</a></li>
+</nav>
+
+<h1 class='title'>Deserts</h1>
+<h2>Cookies</h2>
+<div class="list">
+  <% @cookielist.each do |f| %>
+
+  <div class="productItem">
+    <img class='product-image' width='400px' heigth='400px' src="<%= f.url %>" alt="">
+  </div>
+    <div class="productItem">
+      <%= f.desert %>
+    </div>
+    <div class="product-item">
+      $<%= f.price %>
+    </div>
+    <div class="product-item">
+      <%= f.description %>
+    </div>
+  <% end %>
+</div>

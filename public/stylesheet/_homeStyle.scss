@@ -1,0 +1,65 @@
+.home-wrapper{
+  // border: 2px solid;
+  margin: 10px auto;
+  // height: 650px;
+}
+.home-carosel{
+  grid-template-rows: 1fr;
+  // background-color: red;
+  border: $borderDefault;
+  width: 95%;
+  margin: 0 auto;
+  height: 300px;
+  margin: 0 auto;
+}
+.home-bottom{
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 2fr;
+  // background-color: grey;
+  border: $borderDefault;
+  width: 95%;
+  margin: 0 auto;
+  height: 300px;
+}
+.carosel-image{
+  // border: 2px solid;
+  height: 300px;
+  background-image: url('../images/dessert2.jpg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  transition-duration: $transitionFade;
+}
+.carosel-image:hover{
+  background-color: white;
+  opacity: 0.5 ;
+}
+.home-bottom{
+  display: flex;
+  flex-direction: row;
+}
+.carosel-image2{
+  // border: 2px solid;
+  height: 300px;
+  width: 50%;
+  background-image: url('../images/dessert1.jpg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  transition-duration: $transitionFade;
+}
+.carosel-image2:hover{
+  background-color: white;
+  opacity: 0.5 ;
+}
+.carosel-image3{
+  // border: 2px solid;
+  height: 300px;
+  width: 50%;
+  background-image: url('../images/dessert3.jpg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  transition-duration: $transitionFade;
+}
+.carosel-image3:hover{
+  background-color: white;
+  opacity: 0.5 ;
+}

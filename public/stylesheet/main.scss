@@ -1,0 +1,17 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: #36526A;
+}
+
+@import "variable";
+@import "mainContainer";
+@import "toplogo";
+@import "search";
+@import "productStyle";
+@import "navbar";
+@import "homeStyle";
+@import "footer";
